@@ -5,9 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ZHANG SHUO</title>
 <link href="css/normalize.css" rel="stylesheet">
+<link href="css/animations.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
 </head>
 
-<body>
-<H1>HELLO GITHUB</H1>
+<body class="wrapper">
+<div class="cell animatedParent" data-sequence="500">
+	<div class="animated wobble animatedClick" data-id="1"  data-target="clickExample"><img src="img/maitreya.png" class="img-circle"></div>
+	<H1 class="animated fadeIn delay-500" data-id="2">大肚弥勒张</H1>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/css3-animate-it.js"></script>
 </body>
 </html>
